@@ -6,19 +6,18 @@ Run the program with the following command:
 python main.py [coordinate file] [link file]
 ```
 
-There are several different graphs files included, such as coord_inf.txt and 
-its corresponding links_inf.txt, which will demonstrate the count-to-infinity
+There are several different graphs files included, such as **coord_inf.txt** and 
+its corresponding **links_inf.txt**, which will demonstrate the count-to-infinity
 problem if link C-E fails.
 
-You can create your own graph by making a coordinate file with syntax 
+You can create your own graph by making a coordinate file with the following syntax:
 ```
 <name>, <x-coordinate>, <y-coordinate>
 ```
-and a link file with syntax
+and its corresponding link file must be written in this form:
 ```
 <start node name>, <end node name>, <weight>
 ```
-which is a sufficient description of the network topology.
 
 The program is round-based with all propogation, transmission, and queueing 
 delays assumed to be zero. At the start, nodes are only aware of distances to 
