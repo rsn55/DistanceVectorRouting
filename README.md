@@ -12,11 +12,11 @@ problem if link C-E fails.
 
 You can create your own graph by making a coordinate file with syntax 
 ```
-<name>, x-coordinate, y-coordinate
+<name>, <x-coordinate>, <y-coordinate>
 ```
 and a link file with syntax
 ```
-start node name, end node name, weight
+<start node name>, <end node name>, <weight>
 ```
 which is a sufficient description of the network topology.
 
