@@ -3,7 +3,7 @@ An interactive simulator for the distance-vector routing protocol in Python.
 
 Run the program with the following command:
 ```
-**python main.py [coordinate file] [link file]**
+python main.py [coordinate file] [link file]
 ```
 
 There are several different graphs files included, such as coord_inf.txt and 
@@ -12,11 +12,11 @@ problem if link C-E fails.
 
 You can create your own graph by making a coordinate file with syntax 
 ```
-**name, x-coordinate, y-coordinate**
+<name>, x-coordinate, y-coordinate
 ```
 and a link file with syntax
 ```
-**start node name, end node name, weight**
+start node name, end node name, weight
 ```
 which is a sufficient description of the network topology.
 
