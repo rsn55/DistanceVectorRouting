@@ -1,4 +1,4 @@
-# DistanceVectorRouting
+# Distance-Vector Routing in Networks
 An interactive simulator for the distance-vector routing protocol in Python.
 
 Run the program with the following command:
