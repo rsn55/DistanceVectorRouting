@@ -1,5 +1,5 @@
 # DistanceVectorRouting
-An interactive simulator for the distance-vector routing protocol. In Python.
+An interactive simulator for the distance-vector routing protocol in Python.
 
 Run the program with the following command:
 **python main.py [coordinate file] [link file]**
